@@ -9,4 +9,13 @@ fun main() {
     val customGenerics = CustomGenerics()
     customGenerics.execute()
 
+    val addMethodToExistingClass = AddMethodToExistingClass()
+    addMethodToExistingClass.execute()
+
+    val mixture = Mixture()
+    mixture.execute()
+
+    val lambdaExample = LambdaExample()
+    lambdaExample.execute()
+
 }
